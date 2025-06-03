@@ -40,8 +40,8 @@ PRODUCT_PACKAGES += \
     
 PRODUCT_PACKAGES += \
     bootctrl.default \
-    bootctrl.ums512 \
-    bootctrl.ums512.recovery
+    bootctrl.ums9230 \
+    bootctrl.ums9230.recovery
     
 # Debug    
 PRODUCT_PACKAGES_DEBUG += \
