@@ -8,7 +8,7 @@
 ENABLE_VIRTUAL_AB := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
-LOCAL_PATH := device/infinix/X660D
+LOCAL_PATH := device/infinix/X669D
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
