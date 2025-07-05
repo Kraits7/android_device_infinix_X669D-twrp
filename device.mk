@@ -17,6 +17,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
 
+# Boot control HAL
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-service
+
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
@@ -36,7 +40,9 @@ PRODUCT_PACKAGES += \
 # Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl \
-    android.hardware.boot@1.2-service
+    android.hardware.boot@1.2-impl.recovery \
+vendor.sprd.hardware.boot@1.2-impl \
+vendor.sprd.hardware.boot@1.2-impl.recovery
     
 PRODUCT_PACKAGES += \
     bootctrl.default \
@@ -63,11 +69,9 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
     
-# FastbootD    
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
-    android.hardware.fastboot@1.0-impl-mock-recovery \
-    fastbootd    
+    fastbootd
 
 # OEM otacerts
 PRODUCT_EXTRA_RECOVERY_KEYS += \
