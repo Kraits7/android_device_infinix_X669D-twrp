@@ -19,9 +19,7 @@
 - **For TWRP:**  
   - Decryption support  
   - Backup/restore partitions  
-  - ADB & MTP support  
-
----
+  - ADB & MTP support
 
 ---
 
