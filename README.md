@@ -1,7 +1,5 @@
 # Infinix Hot 30i (X669D) - TWRP
 
-[![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)]()  
-
 📌 **A short description of your project** (e.g., TWRP recovery or mods for Infinix Hot 30i X669D).  
 
 ---
@@ -24,9 +22,6 @@
   - ADB & MTP support  
 
 ---
-
-## 📥 Downloads  
-- **TWRP:** [Download Link]()
 
 ---
 
